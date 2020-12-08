@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commander": "^6.2.0",
     "websequencediagrams": "^1.0.0"
   }
 }
