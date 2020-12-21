@@ -18,7 +18,7 @@ const regexDiagramTitle = /^title[ \t]+([^\r\n]+)/;
 
 const extensions = ['png', 'jpeg', 'jpg'];
 
-const isExtensionValid = ext => extensions.find(e => e === ext) ? true : false;
+const isExtensionValid = extension => extensions.find(ext => ext === extension);
 
 const buildDiagram = async (diagramSource, extension = "png", outputDir = "./") => {
 
@@ -52,7 +52,7 @@ program
                     .filter(notEmptyString)
                     .filter(ignoreComments)
                     .map(addTitle)
-                    .map((diagram) => buildDiagram(diagram, program.extension, program.outputDir))
+                    .map(diagram => buildDiagram(diagram, program.extension, program.outputDir))
                 );
             })
             .catch(console.error); 
