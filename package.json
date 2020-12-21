@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "dia": "index.js"
   },
-  "author": "",
+  "author": "Pedro Mol",
+  "contributors": [
+    {
+      "name": "Eder Costa",
+      "email": "edercosta94@live.com"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "commander": "^6.2.0",
