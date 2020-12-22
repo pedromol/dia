@@ -1,10 +1,10 @@
 {
   "name": "dia",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
-    "dia": "index.js"
+    "dia": "src/index.js"
   },
   "author": "Pedro Mol",
   "contributors": [
@@ -13,8 +13,10 @@
       "email": "edercosta94@live.com"
     }
   ],
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "cli-progress": "^3.8.2",
+    "colors": "^1.4.0",
     "commander": "^6.2.0",
     "websequencediagrams": "^1.0.0"
   }
