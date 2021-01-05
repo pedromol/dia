@@ -39,17 +39,11 @@ $ cd <dia>/inputExample/
 $ dia generate <dia>/inputExample/input -e png
 ```
 
-
-
 ## TODO List
 
 - [x] Progress bar
 - [ ] Filename output without space
 
----
-### Bugs:
-
-- [ ] parameter -o (output-dir) is not working
 
 ## Contributing
 
