@@ -1,3 +1,5 @@
+.idea
+
 # Logs
 logs
 *.log
@@ -22,7 +24,7 @@ lib-cov
 coverage
 *.lcov
 
-# nyc test coverage
+# nyc input coverage
 .nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)

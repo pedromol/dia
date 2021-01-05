@@ -1,0 +1,5 @@
+title my_title
+
+Alice->Bob: Authentication Request
+note right of Bob: Bob thinks about it
+Bob->Alice: Authentication Response
